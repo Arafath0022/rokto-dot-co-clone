@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media-query.css">
+    <title>Document</title>
+</head>
+<body>
+        <!-- navbar starts here -->
+    <header>
+        <div class="nav-bar container">
+          
+        <div class="top-header">
+          <div class="top-nav container-fluid">
+              <div class="social d-flex">
+                  <i style="padding-top: 3px;" class="fas fa-envelope"></i> <p> info@domain.com</p>
+                  <i style="margin-left: 15px; padding-top: 3px;" class="fas fa-phone-alt"></i> <p> +1 234 4567 8910</p>
+              </div>
+              <div class="number d-flex justify-content-end">
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-linkedin-in"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fas fa-sign-out-alt"></i>
+              </div>
+          </div>
+      </div>
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                  <a id="logo" class="navbar-brand" href="#">Rokto</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a style="color: white;" class="nav-link active" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">About us</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Search Donors</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Add Blood request</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Register/Login</a>
+                    </ul>
+                    <i class="fas fa-search"></i>
+                  </div>
+                </div>
+              </nav>
+        </div>
+    </header>
+    <!-- navbar ends here -->
+    <!-- intoduction section starts here -->
+    <section class="introduction d-flex align-items-center">
+      <div class="container">
+        <div class="inner-section">
+          <h1>SMS-based platform to connect blood searchers with donors</h1>
+          <h4>Rokto is a real-time free platform to help blood searchers connect voluntary blood donors around Bangladesh.</h4>
+          <button>Join as Blood Donor</button><button>Search Blood Donor</button>
+        </div>
+      </div>
+    </section>
+    <!-- intoduction section ends here -->
+    <!-- why us page starts here -->
+    <section style="margin-top: 100px; margin-bottom: 50px;">
+      <div class="container">
+        <div class="row">
+          <div class="col col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 inner-row">
+            <h2>What is Rokto?</h2>
+            <p>Rokto is an automated blood service that connects blood searchers with voluntary donors in a moment through SMS. Rokto is always a free service for all.</p>
+          </div>
+          <div class="col col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 inner-row">
+            <h2>Why is Rokto?</h2>
+            <ul>
+              <li>100% Automated</li>
+              <li>Always free</li>
+              <li>24×7 service</li>
+              <li>All data is secured</li>
+            </ul>
+          </div>
+          <button style="margin-bottom: 40px;" id="learn-more">Learn More</button>
+        </div>
+      </div>
+    </section>
+    <!-- why us page ends here -->
+    <!--SMS Format starts here-->
+    <section>
+      <div style="margin-bottom: 100px;" class="container">
+        <div class="row sms-format">
+          <h1 style="margin-bottom: 40px;">SMS Format</h1>
+          <div class="col custom-select" style="width: 200px;">
+            <select class="form-select selections" aria-label="Default select example">
+              <option value="0">To deactivate new profile</option>
+              <option value="1">To join as a donor</option>
+              <option value="2">TO search blood donor</option>
+              <option value="3">To update profile</option>
+              <option value="4">To activate new profile</option>
+              <option value="5">To place a blood request</option>
+              <option value="6">To block a number</option>
+              <option value="7">To verify a blood request</option>
+            </select>
+          </div>
+          <div class="col">
+            <h2 style="color: #EB2C29; font-weight: 600;">DEACTIVATE</h2>
+            <h3 style="font-weight: 300;">To deactivate own account</h3>
+            <div class="d-flex"><span>FORMAT</span><span style="margin-left: 230px;">Deactivate</span></div>
+            <div style="margin-top: 20px;" class="d-flex"><span>Example</span><span style="margin-left: 227px;">Deactivate</span></div>
+          </div>
+          <div class="col ">
+            <h2 id="deact">Deactivate</h2>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--SMS Format starts here-->
+    <!-- search donor section starts here -->
+    <section style="margin-bottom: 100px;">
+      <div class="container">
+        <div class="row">
+          <h2 class="donor mb-4">Search Donors</h2>
+          <div class="col col-12 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+            <p>Blood Group</p>
+            <select class="form-select" aria-label="Default select example">
+              <option selected>Select</option>
+              <option value="1">A+</option>
+              <option value="2">A-</option>
+              <option value="3">B+</option>
+              <option value="4">B-</option>
+              <option value="5">O+</option>
+              <option value="6">O-</option>
+              <option value="7">AB+</option>
+              <option value="8">AB-</option>
+            </select>
+          </div>
+          <div class="col col-12 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+            <p>District</p>
+            <select class="form-select" aria-label="Default select example">
+              <option selected>select</option>
+              <option value="1">Sylhet</option>
+              <option value="2">Dhaka</option>
+              <option value="3">and 62+</option>
+            </select>
+          </div>
+          <div class="col col-12 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+            <p>Donor type</p>
+            <select class="form-select" aria-label="Default select example">
+              <option selected>All</option>
+              <option value="1">Eligible</option>
+            </select>
+          </div>
+          <div class="col col-12 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+            <p>Date of Blood Donation</p>
+            <input type="date" id="calender" name="date">
+            <button id="donor-search">Search</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- search donor section ends here -->
+    <!-- network section starts here -->
+    <section>
+      <div class="container">
+        <h2 style="font-size: 29px;" class="donor mb-4">We're a network of </h2>
+        <div class="row map-section">
+          <div class="col col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+            <i class="fas fa-users network-icons"></i>
+            <h4>6860 Donors</h4>
+          </div>
+          <div class="col col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+            <i class="fas fa-map-marker-alt network-icons"></i>
+            <h4>64 Districts</h4>
+          </div>
+          <div class="col col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+            <i class="fas fa-cubes network-icons"></i>
+            <h4>8 blood groups</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- network section ends here -->
+    <!-- About US section section starts here -->
+    <section>
+      <div class="container d-flex justify-content-center text-center">
+        <div>
+          <h2>About us</h2>
+        <p>Rokto is an automated blood service that connects blood searchers with voluntary blood donors in a moment through SMS. Rokto is a not-for-profit initiative to aware people of voluntary blood donation in Bangladesh.</p>
+        <button id="learn-more-2">Learn more</button>
+        </div>
+      </div>
+    </section>
+    <!-- About US section section end here -->
+    <!-- search donor section starts here -->
+    <section style="margin-top: 120px; background: #FCE0DF; padding: 50px 0;">
+      <div class="container">
+        <div class="row">
+          <div class="col col-12 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+            <p>Blood Group</p>
+            <select class="form-select" aria-label="Default select example">
+              <option selected>Select</option>
+              <option value="1">A+</option>
+              <option value="2">A-</option>
+              <option value="3">B+</option>
+              <option value="4">B-</option>
+              <option value="5">O+</option>
+              <option value="6">O-</option>
+              <option value="7">AB+</option>
+              <option value="8">AB-</option>
+            </select>
+          </div>
+          <div class="col col-12 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+            <p>District</p>
+            <select class="form-select" aria-label="Default select example">
+              <option selected>select</option>
+              <option value="1">Sylhet</option>
+              <option value="2">Dhaka</option>
+              <option value="3">and 62+</option>
+            </select>
+          </div>
+          <div class="col col-12 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+            <p>Donor type</p>
+            <select class="form-select" aria-label="Default select example">
+              <option selected>All</option>
+              <option value="1">Eligible</option>
+            </select>
+          </div>
+          <div class="col col-12 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+            <p>Date of Blood Donation</p>
+            <input type="date" id="calender" name="date">
+            <button id="donor-search">Search</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- search donor section ends here -->
+    <!-- footer starts here -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h2 class="logo text-white mb-4">Rokto</h2>
+            <p class=" text-white">Rokto is an automated blood service that connects blood searchers with voluntary blood donors in a moment through SMS and website.</p>
+            <div style="font-size: 25px;" class="my-4">
+              <i class="fab fa-twitter"></i>
+              <i class="fab fa-facebook mx-3"></i>
+              <i class="fab fa-linkedin-in"></i>
+            </div>
+            <p>Terms & Conditions | Privacy Policy</p>
+            <p>DMCA Protected</p>
+          </div>
+          <div class="col">
+            <h2 class="footer-link">
+              Links
+            </h2>
+            <ul style="list-style: none; padding: 0;">
+            <li>
+              <a style="color: #333333; font-weight: 500;"href="#">Home</a>
+            </li> <br>
+            <li>
+              <a style="color: #333333; font-weight: 500;" href="#">Add Blood Request</a>
+            </li> <br>
+            <li>
+              <a style="color: #333333; font-weight: 500;"href="#">Search Blood Donors in Bangladesh</a>
+            </li> <br>
+            <li><a style="color: #333333; font-weight: 500;"href="#">Frequently Asked Questions (FAQs)</a></li> <br>
+            <li>
+              <a style="color: #333333; font-weight: 500;"href="#">About Us</a>
+            </li> <br>
+            <li>
+              <a style="color: #333333; font-weight: 500;"href="#">Contact us</a>
+            </li>
+          </ul>
+          </div>
+          <div class="col">
+            <h2 class="footer-link">
+              About Blood
+            </h2>
+            <ul style="list-style: none; padding: 0;">
+              <li>
+                <a style="color: #333333; font-weight: 500;"href="#">What is blood?</a>
+              </li> <br>
+              <li>
+                <a style="color: #333333; font-weight: 500;" href="#">What is blood donation</a>
+              </li> <br>
+              <li>
+                <a style="color: #333333; font-weight: 500;"href="#">How often can i donate blood?</a>
+              </li> <br>
+              <li><a style="color: #333333; font-weight: 500;"href="#">Different Blood Terms</a></li> <br>
+              <li>
+                <a style="color: #333333; font-weight: 500;"href="#">Different Blood Groups</a>
+              </li> <br>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer end here -->
+    <!-- all scripts link starts -->
+    <script src="https://kit.fontawesome.com/4ccd92d27b.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <!-- all scripts links end -->
+</body>
+</html>

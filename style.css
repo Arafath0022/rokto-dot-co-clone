@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@700&family=Josefin+Slab:wght@100;400&family=Montserrat:wght@300&family=Poppins:wght@300;500&family=Ubuntu:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    width: 100%;
+    background: #EB2C29;
+}
+
+.top-header{
+    padding-top: 7px;
+}
+.social{
+    position: absolute;
+    color: white;
+}
+
+.top-nav{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 15px;
+}
+
+.number{
+    color: white;
+}
+
+.number i{
+    
+    margin-right: 15px;
+}
+
+.number p{
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#logo{
+    font-size: 25px;
+    color: white;
+    font-weight: 900;
+}
+.logo{
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    font-weight: 900;
+}
+
+#navbarNav > ul > li a{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.658);
+    cursor: pointer;
+    margin-right: 25px;
+    transition: 0.4s;
+}
+
+#navbarNav > ul > li a:hover{
+    color: rgb(255, 255, 255);
+}
+
+.fa-search{
+    color: white;
+    cursor: pointer;
+}
+
+.social i{
+    padding-right: 5px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.social i:hover{
+    color: black;
+}
+
+.introduction{
+    background: url(img/header_bg.jpg);
+    height: 90vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.inner-section h1{
+    color: white;
+    font-size: 45px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.inner-section h4{
+    font-size: 21px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.inner-section button{
+    outline: none;
+    border: none;
+    margin-right: 8px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 30px;
+    border-radius: 5px;
+    box-shadow: 3px 2px 15px rgba(0, 0, 0, 0.514);
+}
+
+body > section > div > div > button:nth-child(3){
+    background: #EB2C29;
+    color: white;
+    padding: 7px 20px;
+}
+
+body > section > div > div > button:nth-child(4){
+    background: #ffffff;
+    color: #EB2C29;
+    padding: 7px 20px;
+}
+
+#learn-more{
+    margin-top: 20px;
+    width: 150px;     
+    left: 50%;
+    position: relative;
+    transform: translate(-50%);
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.inner-row{
+    font-family: 'Poppins', sans-serif;
+}
+
+.inner-row p, li{
+    color: #555555;
+}
+
+.sms-format h1{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.selections{
+    width: 250px;
+    outline: none;
+    background: #EB2C29;
+    color: white;
+    font-size: 16px;
+}
+
+#deact{
+    font-size: 17px;
+    width: 150px;
+    height: 150px;
+    border: 5px solid #EB2C29;
+    border-radius: 50%;
+    text-align: center;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    padding-top: 50px;
+}
+
+.donor{
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+#calender{
+    width: 200px; 
+    height: 37px; 
+    border: 1px solid #CED4DA;
+    border-radius: 4px;
+    padding: 15px;
+}
+
+#donor-search{
+    width: 80px;
+    height: 37px;
+    background: #EB2C29;
+    padding: 4px 10px;
+    border-radius: 4px;
+    color: white;
+    outline: none;
+    border: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+#donor-search:hover{
+    background: white;
+    color: #EB2C29;
+    border: 1px solid #EB2C29;
+}
+
+.map-section{
+    text-align: center;
+    margin-bottom: 160px;
+}
+
+.network-icons{
+    color: #EB2C29;
+    font-size: 50px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+.map-section h4{
+    font-weight: bold;
+}
+
+body > section:nth-child(7) > div > div > p{
+    color: #555555;
+}
+
+#learn-more-2{
+    margin-top: 20px;
+    width: 130px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.footer-link{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+footer .container .row{
+    padding-top: 70px;
+}
+
+footer .container .row .col a{
+    text-decoration: none;
+}
+
+footer{
+    background-image: linear-gradient(#EC2C2E, #F02A4A);
+}
